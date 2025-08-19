@@ -17,7 +17,7 @@ export default function UserReviews() {
               alt="User 1"
               className="w-12 h-12 rounded-full mx-auto"
             />
-            <div className="mt-2 text-gray-800">John Doe, Developer</div>
+            <div className="mt-2 text-gray-800">D Hemanth Kumar, Developer</div>
           </div>
         </Card>
         <Card className="p-6 text-center">
@@ -30,7 +30,7 @@ export default function UserReviews() {
               alt="User 2"
               className="w-12 h-12 rounded-full mx-auto"
             />
-            <div className="mt-2 text-gray-800">Jane Smith, Designer</div>
+            <div className="mt-2 text-gray-800">JOHN DOE, ML Engineer</div>
           </div>
         </Card>
       </div>
