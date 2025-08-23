@@ -5,7 +5,7 @@ import { cn } from "@/lib/utils";
 // import { SessionProvider } from "next-auth/react";
 // import { SessionProvider } from "next-auth/react";
  import SessionProvider from "@/providers/SessionProvider";
-//import { Toaster } from "@/components/ui/sonner";
+import { Toaster } from "@/components/ui/sonner";
 
 const fontSans = FontSans({
   subsets: ["latin"],
@@ -31,7 +31,8 @@ export default function RootLayout({
             fontSans.variable
           )}
         >
-          {children}
+          <Toaster richColors duration={10000} />
+          {children} 
           
         </body>
       
